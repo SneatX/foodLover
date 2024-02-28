@@ -195,6 +195,7 @@ main{
     position: absolute;
     top: 25vw;
     left: 12vw;
+    font-weight: bold;
 }
 
 
@@ -203,7 +204,27 @@ main{
 
 /*-----------SECCION 3---------*/
 
+.section-3-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.section-3-main h1{
+    font-size: 2vw;
+    margin: 8vw 0 3vw 0;
+}
+
+.section-3-main article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-3-main article img{
+    margin: 1vw;
+    width: 27vw;
+}
 /*-----------FIN SECCION 3---------*/
 
 
