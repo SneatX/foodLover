@@ -1,4 +1,5 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
     margin: 0;
@@ -18,6 +19,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
+    background-size: cover;
 }
 
 /*----------NAV----------*/
@@ -76,19 +78,19 @@ header section article{
 }
 
 .article-text-header{
-    padding-right: 10vw;
     display: flex;
+    padding-right: 10vw;
     flex-direction: column;
     justify-content: center;
 }
 
 .article-text-header h1{
     color: var(--color-primary);
-    font-size: 5vw;
+    font-size: 5rem;
 }
 
 .article-text-header p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold; /*Aplicar negrilla*/
     margin: 1vw 0 1vw 0;
 }
@@ -156,34 +158,71 @@ main{
 
 /*-----------FIN SECCION 1---------*/
 
-/*-----------SECCION 1---------*/
+/*-----------SECCION 2---------*/
 
 .section-2-main{
     margin-top: 15vh;
     background: url(/storage/img/placeYourImageHereFood.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 250vh;
+    height: 240vh;
 }
 
 .article-text-section-2{
     position: relative;
-    top: 500px;
-    left: 200px;
+    top: 25vw;
+    left: 10vw;
     width: 30vw;
 }
 
 .article-text-section-2 h1{
-    font-size: 3em;
+    font-size: 3vw;
 }
 .article-text-section-2 p{
-    font-size: 2em;
+    font-size: 1.5vw;
     font-weight: bold; /*Aplicar negrilla*/
 }
 
+.div-img-1-section2{
+    position: relative;
+}
+
+.img-1-section2{
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    top: -10vw;
+}
+
+.div-img-2-section2{
+    position: relative;
+}
+
+.img-2-section2{
+    width: 60.2vw;
+    position: absolute;
+    right: 0;
+    top: 45vw;
+}
+
+.div-img-3-section2{
+    position: relative;
+}
+
+.img-3-section2{
+    width: 35vw;
+    position: absolute;
+    left: 0;
+    top: 72vw;
+}
+
+/*-----------FIN SECCION 2---------*/
 
 
-/*-----------FIN SECCION 1---------*/
+/*-----------SECCION 3---------*/
+
+
+/*-----------FIN SECCION 3---------*/
 
 
 
