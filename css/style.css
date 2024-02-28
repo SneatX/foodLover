@@ -151,7 +151,37 @@ main{
 .article-text-section-1 p{
     font-size: 2em;
     font-weight: bold; /*Aplicar negrilla*/
+    margin-right:5vw ;
 }
+
+/*-----------FIN SECCION 1---------*/
+
+/*-----------SECCION 1---------*/
+
+.section-2-main{
+    margin-top: 15vh;
+    background: url(/storage/img/placeYourImageHereFood.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250vh;
+}
+
+.article-text-section-2{
+    position: relative;
+    top: 500px;
+    left: 200px;
+    width: 30vw;
+}
+
+.article-text-section-2 h1{
+    font-size: 3em;
+}
+.article-text-section-2 p{
+    font-size: 2em;
+    font-weight: bold; /*Aplicar negrilla*/
+}
+
+
 
 /*-----------FIN SECCION 1---------*/
 
