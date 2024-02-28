@@ -24,15 +24,11 @@ header{
 
 nav{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100vw;
     height: 15vh;
 }
 
 .lista-nav{
-    width: 35%;
+    width: 35vw;
     list-style: none;
     display: flex;
     font-weight: bold; /*Aplicar negrilla*/
@@ -45,7 +41,7 @@ nav{
 }
 
 .div-logo-nav{
-    width: 30%;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
