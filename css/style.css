@@ -111,6 +111,54 @@ header section article{
 
 /*----------FIN SECTION - NAV----------*/
 
+/*-----------MAIN---------*/
+
+main{
+    background-color: var(--color-secundary);
+}
+/*-----------FIN MAIN---------*/
+
+
+/*-----------SECCIONES MAIN---------*/
+/*-----------SECCION 1---------*/
+
+.section-1-main{
+    display: flex;
+    height: 100vh;
+}
+
+.article-img-section-1{
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-img-section-1 img{
+    height: 80%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.article-text-section-1{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.article-text-section-1 h1{
+    font-size: 3em;
+}
+
+.article-text-section-1 p{
+    font-size: 2em;
+    font-weight: bold; /*Aplicar negrilla*/
+}
+
+/*-----------FIN SECCION 1---------*/
+
 
 
 
