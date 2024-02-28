@@ -161,30 +161,11 @@ main{
 /*-----------SECCION 2---------*/
 
 .section-2-main{
-    margin-top: 15vh;
-    background: url(/storage/img/placeYourImageHereFood.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 240vh;
-}
-
-.article-text-section-2{
     position: relative;
-    top: 25vw;
-    left: 10vw;
-    width: 30vw;
 }
 
-.article-text-section-2 h1{
-    font-size: 3vw;
-}
-.article-text-section-2 p{
-    font-size: 1.5vw;
-    font-weight: bold; /*Aplicar negrilla*/
-}
-
-.div-img-1-section2{
-    position: relative;
+.container-fondo img{
+    width: 100%;
 }
 
 .img-1-section2{
@@ -194,19 +175,11 @@ main{
     top: -10vw;
 }
 
-.div-img-2-section2{
-    position: relative;
-}
-
 .img-2-section2{
-    width: 60.2vw;
+    width: 60vw;
     position: absolute;
     right: 0;
     top: 45vw;
-}
-
-.div-img-3-section2{
-    position: relative;
 }
 
 .img-3-section2{
@@ -215,6 +188,15 @@ main{
     left: 0;
     top: 72vw;
 }
+
+.article-text-section-2{
+    font-size: 2vw;
+    width: 30vw;
+    position: absolute;
+    top: 25vw;
+    left: 12vw;
+}
+
 
 /*-----------FIN SECCION 2---------*/
 
