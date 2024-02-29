@@ -227,6 +227,26 @@ main{
 }
 /*-----------FIN SECCION 3---------*/
 
+/*-----------SECCION 4---------*/
+
+.section-4-main {
+    margin-top: 10vw;
+    position: relative;
+}
+
+.section-4-main img{
+    width: 100%;
+}
+
+.article-text-section4{
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-----------FIN SECCION 4---------*/
 
 
 
