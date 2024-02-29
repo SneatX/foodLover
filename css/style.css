@@ -261,6 +261,8 @@ main{
 }
 .article-text-section4 p{
     font-size: 2vw;
+    font-weight: bold; /*Aplicar negrilla*/
+
 }
 /*-----------FIN SECCION 4---------*/
 
