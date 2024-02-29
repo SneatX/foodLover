@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: bold; /*Aplicar negrilla*/
 }
 
 body{
@@ -304,12 +305,79 @@ main{
 
 .div-content-menu-section5 p{    
     font-weight: bold; /*Aplicar negrilla*/
+    font-size: 1vw;
+
 }
-
-
 
 /*-----------FIN SECCION 5---------*/
 
+/*-----------SECCION 6---------*/
+
+.section-6-main{
+    margin-top: 12vw;
+    position: relative;
+    display: flex;
+    background-color: var(--color-primary);
+    justify-content: end;
+    height: 30vw;
+}
+
+.section-6-main img{ 
+    width: 40vw;
+    position: absolute;
+    left: 0;
+    top: -5vw;
+}
+
+.section-6-main article{ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-6-main article div{ 
+    width: 60%;
+}
+
+.section-6-main article h1{ 
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.section-6-main article p{ 
+    font-size: 2vw;
+}
+/*-----------FIN SECCION 6---------*/
+
+/*-----------FOOTER---------*/
+
+footer{
+    background-color: var(--color-ternario);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 5vw 0 5vw 0;
+}
+
+.div-logoPrincipal-footer img{
+    width: 30vw;
+}
+
+.div-opciones-footer{
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+    margin: 3vw 0 3vw 0;
+    font-size: 1.5vw;
+}
+
+.div-redes-footer{
+    font-size: 4vw;
+}
+/*-----------FIN FOOTER---------*/
 
 
 
