@@ -40,7 +40,8 @@ nav{
 }
 
 .lista-nav li{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 1vw 0px 1vw;
+    font-size: 1vw;
 }
 
 .div-logo-nav{
@@ -48,6 +49,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.div-logo-nav img{
+    width: 5vw;
 }
 
 .btn-home{
@@ -87,11 +91,11 @@ header section article{
 
 .article-text-header h1{
     color: var(--color-primary);
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 .article-text-header p{
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     font-weight: bold; /*Aplicar negrilla*/
     margin: 1vw 0 1vw 0;
 }
@@ -101,7 +105,7 @@ header section article{
     width: 10vw;
     border: 0;
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.2vw;
     background-color: var(--color-primary);
     font-family: var(--font-primary);
     font-weight: bold; /*Aplicar negrilla*/
@@ -123,18 +127,19 @@ main{
 
 .section-1-main{
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 
 .article-img-section-1{
-    width: 55vw;
+    width: 53vw;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
 .article-img-section-1 img{
-    height: 80%;
+    padding-top: 5vw;
+    width: 47vw;
     aspect-ratio: 1;
     object-fit: cover;
 }
@@ -144,15 +149,17 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 2vw;
 
 }
 
 .article-text-section-1 h1{
-    font-size: 3em;
+    font-size: 3vw;
+    margin-bottom: 1vw;
 }
 
 .article-text-section-1 p{
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold; /*Aplicar negrilla*/
     margin-right:5vw ;
 }
@@ -162,6 +169,7 @@ main{
 /*-----------SECCION 2---------*/
 
 .section-2-main{
+    margin-top: 13vw;
     position: relative;
 }
 
